@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import doctor from "./doctor.png"
+import forecastly from "./forecastly.png"
+import ecommerce from './ecommerce.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -24,6 +27,9 @@ import nhs from "./company/nhs.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import MovieSQL from "./MovieSQL.png"
+import readme from './readme.png'
+
 
 export {
   logo,
@@ -51,4 +57,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  doctor,
+  MovieSQL,
+  forecastly,
+  ecommerce,
+  readme,
 };

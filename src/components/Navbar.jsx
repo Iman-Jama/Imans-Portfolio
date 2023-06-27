@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from "react-router-dom";
-import { styles } from '../styles';
 import { navLinks } from '../constants';
 import {logo, menu, close} from '../assets'
 
@@ -11,7 +10,7 @@ const Navbar = () => {
   const [active, setActive]= useState('')
   const [toggle, setToggle]=useState(false)
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-gradient-to-r from-rose-400 to-pink-400 `}>
+    <nav className="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-gradient-to-r from-rose-400 to-pink-400">
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
         to ="/"

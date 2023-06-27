@@ -20,16 +20,25 @@ import {
     jobit,
     tripguide,
     threejs,
+    doctor,
+    MovieSQL,
+    forecastly,
+    ecommerce,
+    readme,
   } from "../assets";
   
   export const navLinks = [
     {
-      id: "about",
+      id: "About",
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "Projects",
+      title: "Projects",
+    },
+    {
+      id: "workExperience",
+      title: "Work History",
     },
     {
       id: "contact",
@@ -38,6 +47,10 @@ import {
   ];
   
   const services = [
+    {
+      title: "Doctor",
+      icon: doctor,
+    },
     {
       title: "Web Developer",
       icon: web,
@@ -182,67 +195,116 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "The Movie Sequel",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a movie search engine that allows the user to login, authenticate their login and then search the name of a movie. This program will display the searched movie using third party APIs to fetch the data and allow users to add/update/view/delete reviews on the movie",
       tags: [
         {
-          name: "react",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "mySQL",
+          color: "pink-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "ExpressJS",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
+          name: "NodeJS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "handlebars",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: MovieSQL,
+      source_code_link: "https://github.com/Iman-Jama/movie-part2",
+    },
+    {
+      name: "ForeCastly Weather APP",
+      description:
+        "Web application that enables users to search for current weather conditions and a 5-day forecast for any city worldwide.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenWeatherMap API",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: forecastly,
+      source_code_link: "https://github.com//Iman-Jama/Weather-App",
+    },
+    {
+      name: "E-Commerce Backend",
+      description:
+        "An efficient e-commerce backend solution for seamless inventory management and order processing.Our e-commerce backend application empowers users to efficiently manage inventory by offering features such as real-time stock tracking, item updates, deletions, and seamless addition of new items to the existing stocklist",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "SequelizeJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mySQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecommerce,
+      source_code_link: "https://github.com/Iman-Jama/E-commerce",
+    },
+    {
+      name: "README generator",
+      description:
+        "This application dynamically creates a README file with the users input information from the command line. This application achieves this using the inquirer package.The code for this application was written using javascript.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "InquirerJS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: readme,
+      source_code_link: "https://github.com/Iman-Jama/E-commerce",
     },
   ];
   

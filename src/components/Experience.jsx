@@ -13,7 +13,7 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#4c0519",
+        background: "#9d174d",
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #500724" }}
@@ -59,8 +59,8 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-      <h2 className= "text-rose-950 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center mt-[30px]">
-          Work Experience.
+      <h2 id="workExperience" className= "mx-[30px] text-rose-900 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-start mt-[30px]">
+          Work Experience
         </h2>
       </motion.div>
 
