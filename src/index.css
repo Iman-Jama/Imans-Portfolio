@@ -10,7 +10,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 .hash-span {
@@ -34,12 +34,12 @@
 }
 
 .pink-gradient {
-  background: #FFC0CB;
-  background: linear-gradient(-90deg, #FFC0CB 0%, rgba(60, 51, 80, 0) 100%);
+  background: rgb(76 5 25);
+  background: linear-gradient(-90deg, rgb(92, 15, 37) 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #FFC0CB 0%,
-    rgba(60, 51, 80, 0) 100%
+    rgb(156, 67, 93) 0%,
+    rgb(206, 197, 205) 100%
   );
 }
 

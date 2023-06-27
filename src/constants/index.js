@@ -15,10 +15,7 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    nhs,
     carrent,
     jobit,
     tripguide,
@@ -52,10 +49,6 @@ import {
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -116,57 +109,48 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Doctor",
+      company_name: "Birmingham & Solihull Mental Health NHS Trust",
+      icon:nhs,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2017 - Jan 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked in the Psychiatric intensive care unit, a community psychiatric unit and at Heartlands hospital in the Psychiatric Liaison team.",
+        "First port of call for any psychiatric assessments and medical emergencies",
+        "Attending mental health tribunals and writing the tribunal reports",
+        
       ],
+      audit: "Audit: Assessing the quality of referrals to the psychiatric Liaison team (Birmingham and Solihull Mental health NHS Trust June 2018)"
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Locum Doctor",
+      company_name: "John Howard Forensice Unit",
+      icon: nhs,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2017 - August 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I worked as a locum CT1 doctor at a medium secure forensic psychiatric unit:",
+        "Provided medical review and psychiatric assessments for all inmates.",
+        "Chaired Weekly MDT meetings.",
+        "Liaised with family members and other specialities when required.",
       ],
+      
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "FY1/2 Doctor",
+      company_name: "Worcestershire Acute NHS Trusts & Sandwell and West Birmingham NHS Trust",
+      icon: nhs,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Aug 2014 - Aug 2016",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Daily ward rounds, assessing new patients and on-call duties",
+        "Responsible for collating and analysing the monthly mortality and morbidity results and presenting this alongside proposed changes to the entire urology team at the monthly MDT.",
+        "Liaised with nurses, social workers, and occupational therapists, and dealt with all medical queries staff members had.",
+        "Organised and chaired several patient specific multidisciplinary team (MDT) meetings, as well as chairing the weekly departmental MDT.",
+        "Did several Audits"
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [

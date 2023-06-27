@@ -11,7 +11,7 @@ const Navbar = () => {
   const [active, setActive]= useState('')
   const [toggle, setToggle]=useState(false)
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
+    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-gradient-to-r from-rose-400 to-pink-400 `}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
         to ="/"
@@ -28,10 +28,8 @@ const Navbar = () => {
           <ul className='list-none hidden sm:flex flex-row gap-10'>
             {navLinks.map((link) => (
               <li key= {link.id}
-              className={`${active === link.title
-              ? "text-white"
-              : "text-secondary"
-              } hover: text-white text-[18px] font-medium cursor-pointer`}
+              className={`${active === link.title}
+              } text-white hover:text-black hover:bg-pink-300 hover: rounded transition-all duration-300 font-medium cursor-pointer`}
               onClick={()=> setActive(link.title)}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
