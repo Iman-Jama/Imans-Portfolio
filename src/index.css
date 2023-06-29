@@ -57,10 +57,9 @@
 }
 
 .contact {
-  color: black;
   text-align: center;
   font-size: 12px;
-  padding: 8px;
+  padding: 4px;
   position: fixed;
   bottom: 0;
   left: 0;

@@ -8,6 +8,8 @@ import {
     forecastly,
     ecommerce,
     readme,
+    calendar,
+    social,
   } from "../assets";
   
   export const navLinks = [
@@ -208,6 +210,53 @@ import {
       ],
       image: readme,
       source_code_link: "https://github.com/Iman-Jama/E-commerce",
+    },
+
+    {
+      name: "Daily Workday Calendar",
+      description:
+        "I created an online daily schedule. When you go the website, you are greeted with a calendar which has timeblocks for standard business hours. The time blocks are colour coded, so any time block in the past is grey, the current time block is red and future time blocks are green. You are able to write information in any of the time blocks and when you click save, the information is saved to the computers local storage. This App was cretaed using VanillaJS and is a purely frontend project.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: calendar,
+      source_code_link: "https://github.com/Iman-Jama/Daily-Workday-Calendar",
+    },
+    {
+      name: "Social Media Backend",
+      description:
+        "This project is s purely backend implementation for a social media website using Express.js, Node.js, and Mongoose. It provides a set of routes to handle users, thoughts, and reactions. The backend API can be tested using tools like Insomnia.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "ExpressJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mongoose",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: social,
+      source_code_link: "https://github.com/Iman-Jama/social_media_network",
     },
   ];
   

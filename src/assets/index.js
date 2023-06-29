@@ -9,6 +9,8 @@ import close from "./close.svg";
 import doctor from "./doctor.png"
 import forecastly from "./forecastly.png"
 import ecommerce from './ecommerce.png'
+import calendar from './calendar.png'
+import social from './socialM.png'
 
 
 import nhs from "./company/nhs.png";
@@ -31,4 +33,6 @@ export {
   forecastly,
   ecommerce,
   readme,
+  calendar,
+  social,
 };
