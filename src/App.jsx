@@ -17,7 +17,7 @@ const App = () => {
       <Experience />
       <Contact />
        <div>
-       <Footer className="absolute bottom-0 min-w-full" />
+       <Footer className="absolute fixed bottom-0 min-w-full" />
       </div>
 
       </div>
