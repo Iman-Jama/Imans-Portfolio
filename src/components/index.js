@@ -5,6 +5,7 @@ import About from './About';
 import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
+import Footer from './Footer.jsx'
 
 export {
   Hero,
@@ -13,4 +14,5 @@ export {
   Experience,
   Works,
   Contact,
+  Footer,
 }
