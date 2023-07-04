@@ -1,8 +1,9 @@
-import React from 'react';
+// import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { services } from '../constants/index';
-import {fadeIn, textVariant} from '../utils/motion';
+import { fadeIn } from '../utils/motion';
+import PropTypes from 'prop-types'
 
 
 const ServiceCard =({index, title, icon}) => {
@@ -13,6 +14,7 @@ const ServiceCard =({index, title, icon}) => {
       className='w-full bg-gradient-to-r from-indigo-500 via-10% via-sky-500 via-30% to-pink-500 via-90% p-[1px] rounded-[20px] shadow-card'
       >
         <div
+          // eslint-disable-next-line react/no-unknown-property
           options={{
             max: 45,
             scale: 1,
@@ -29,8 +31,14 @@ const ServiceCard =({index, title, icon}) => {
 
     </Tilt>
    
-  )
+  );
+
 } 
+ServiceCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
 
 const About = () => {
   return (

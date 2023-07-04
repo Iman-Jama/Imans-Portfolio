@@ -1,9 +1,10 @@
-import React from "react";
+// import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { github } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import PropTypes from 'prop-types'
 
 const ProjectCard = ({
   index,
@@ -63,6 +64,20 @@ const ProjectCard = ({
       </Tilt>
     </motion.div>
   );
+};
+
+ProjectCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  tags: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      color: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  image: PropTypes.string.isRequired,
+  source_code_link: PropTypes.string.isRequired,
 };
 
 const Works = () => {

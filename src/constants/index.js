@@ -1,18 +1,17 @@
-import {
-    mobile,
-    backend,
-    web,
-    nhs,
-    doctor,
-    MovieSQL,
-    forecastly,
-    ecommerce,
-    readme,
-    calendar,
-    social,
-  } from "../assets";
-  
-  export const navLinks = [
+
+  import mobile from '../assets/mobile.png';
+  import backend from '../assets/backend.png';
+  import web from '../assets/web.png';
+  import nhs from '../assets/company/nhs.png';
+  import doctor from '../assets/doctor.png';
+  import MovieSQL from "../assets/MovieSQL.png";
+  import forecastly from '../assets/forecastly.png';
+  import ecommerce from '../assets/ecommerce.png';
+  import readme from '../assets/readme.png';
+  import calendar from '../assets/calendar.png';
+  import social from '../assets/socialM.png';
+
+  const navLinks = [
     {
       id: "About",
       title: "About",
@@ -260,4 +259,4 @@ import {
     },
   ];
   
-  export { services, experiences, projects };
+  export { services, experiences, projects, navLinks };
