@@ -11,6 +11,7 @@ import forecastly from "./forecastly.png"
 import ecommerce from './ecommerce.png'
 import calendar from './calendar.png'
 import social from './socialM.png'
+import hi from './hi.png'
 
 
 import nhs from "./company/nhs.png";
@@ -35,4 +36,5 @@ export {
   readme,
   calendar,
   social,
+  hi,
 };
