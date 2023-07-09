@@ -12,6 +12,7 @@ import ecommerce from './ecommerce.png'
 import calendar from './calendar.png'
 import social from './socialM.png'
 import hi from './hi.png'
+import CV from './MyCv_ImanJama.pdf'
 
 
 import nhs from "./company/nhs.png";
@@ -37,4 +38,5 @@ export {
   calendar,
   social,
   hi,
+  CV,
 };
