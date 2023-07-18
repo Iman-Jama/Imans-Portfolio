@@ -13,6 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  app_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -25,8 +26,9 @@ const ProjectCard = ({
         
         className='mx-[30px] bg-gradient-to-r from-pink-500 to-rose-300 p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px] hover:cursor-pointer' onClick={() => window.open(app_link, "_blank")}>
           <img
+            
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
@@ -78,6 +80,7 @@ ProjectCard.propTypes = {
   ).isRequired,
   image: PropTypes.string.isRequired,
   source_code_link: PropTypes.string.isRequired,
+  app_link: PropTypes.string.isRequired,
 };
 
 const Works = () => {

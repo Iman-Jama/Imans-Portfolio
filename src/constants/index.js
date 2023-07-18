@@ -7,9 +7,9 @@
   import MovieSQL from "../assets/MovieSQL.png";
   import forecastly from '../assets/forecastly.png';
   import ecommerce from '../assets/ecommerce.png';
-  import readme from '../assets/readme.png';
   import calendar from '../assets/calendar.png';
   import social from '../assets/socialM.png';
+  import wizdumb from '../assets/wizdumb.png';
 
   const navLinks = [
     {
@@ -100,6 +100,36 @@
   
   const projects = [
     {
+      name: "Wizdumb",
+      description:
+        "This project is a full-stack MERN application e-learning website. It was made with react, graphql, and Mongo DB. It is an e-learning website where users can make accounts, learn web development through 5 different modules, add these modules to their profiles and take part in the forum discussion board",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "GraphQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mongoose",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: wizdumb,
+      source_code_link: "https://github.com/Cdrcar/Wizdumb",
+      app_link: "https://wizdumb-app-a832fc305640.herokuapp.com/",
+    },
+    {
       name: "The Movie Sequel",
       description:
         "This is a movie search engine that allows the user to login, authenticate their login and then search the name of a movie. This program will display the searched movie using third party APIs to fetch the data and allow users to add/update/view/delete reviews on the movie",
@@ -131,6 +161,7 @@
       ],
       image: MovieSQL,
       source_code_link: "https://github.com/Iman-Jama/movie-part2",
+      app_link: "https://the-movie-sequel.herokuapp.com/",
     },
     {
       name: "ForeCastly Weather APP",
@@ -160,6 +191,7 @@
       ],
       image: forecastly,
       source_code_link: "https://github.com//Iman-Jama/Weather-App",
+      app_link: "https://iman-jama.github.io/Weather-App/",
     },
     {
       name: "E-Commerce Backend",
@@ -189,29 +221,8 @@
       ],
       image: ecommerce,
       source_code_link: "https://github.com/Iman-Jama/E-commerce",
+      app_link: "https://github.com/Iman-Jama/E-commerce",
     },
-    {
-      name: "README generator",
-      description:
-        "This application dynamically creates a README file with the users input information from the command line. This application achieves this using the inquirer package.The code for this application was written using javascript.",
-      tags: [
-        {
-          name: "Javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NodeJS",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "InquirerJS",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: readme,
-      source_code_link: "https://github.com/Iman-Jama/E-commerce",
-    },
-
     {
       name: "Daily Workday Calendar",
       description:
@@ -232,6 +243,7 @@
       ],
       image: calendar,
       source_code_link: "https://github.com/Iman-Jama/Daily-Workday-Calendar",
+      app_link: "https://iman-jama.github.io/Daily-Workday-Calendar/",
     },
     {
       name: "Social Media Backend",
@@ -257,7 +269,9 @@
       ],
       image: social,
       source_code_link: "https://github.com/Iman-Jama/social_media_network",
+      app_link: "https://github.com/Iman-Jama/social_media_network",
     },
+   
   ];
   
   export { services, experiences, projects, navLinks };

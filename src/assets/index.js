@@ -13,11 +13,12 @@ import calendar from './calendar.png'
 import social from './socialM.png'
 import hi from './hi.png'
 import CV from './MyCv_ImanJama.pdf'
+import wizdumb from './wizdumb.png'
 
 
 import nhs from "./company/nhs.png";
 import MovieSQL from "./MovieSQL.png"
-import readme from './readme.png'
+
 
 
 export {
@@ -34,9 +35,9 @@ export {
   MovieSQL,
   forecastly,
   ecommerce,
-  readme,
   calendar,
   social,
   hi,
   CV,
+  wizdumb,
 };

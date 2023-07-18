@@ -1,4 +1,4 @@
-
+import hi from '../assets/hi.png';
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto ">
@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
             <div>
               <div className="flex-1 flex items-center justify-center h-full">
-                <img src='/src/assets/hi.png' alt="" className="md:w-11/12 object-scale-down h-80 w-96" />
+                <img src={hi} alt="" className="md:w-11/12 object-scale-down h-80 w-96" />
               </div>
 
             </div>
