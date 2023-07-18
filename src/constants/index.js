@@ -166,7 +166,7 @@
     {
       name: "ForeCastly Weather APP",
       description:
-        "Web application that enables users to search for current weather conditions and a 5-day forecast for any city worldwide.",
+        "Forecastly is a Web application that enables users to search for current weather conditions and a 5-day forecast for any city worldwide. This application was designed with vanilla javascript and DOM manipulation. I also used the openweatherMap API",
       tags: [
         {
           name: "Javascript",
@@ -196,7 +196,7 @@
     {
       name: "E-Commerce Backend",
       description:
-        "An efficient e-commerce backend solution for seamless inventory management and order processing.Our e-commerce backend application empowers users to efficiently manage inventory by offering features such as real-time stock tracking, item updates, deletions, and seamless addition of new items to the existing stocklist",
+        "An efficient e-commerce backend solution for inventory management and order processing.Our e-commerce backend application empowers users to  manage inventory by offering features such as stock tracking, item updates, deletions, and addition of new items to the existing stocklist",
       tags: [
         {
           name: "Javascript",
@@ -226,7 +226,7 @@
     {
       name: "Daily Workday Calendar",
       description:
-        "I created an online daily schedule. When you go the website, you are greeted with a calendar which has timeblocks for standard business hours. The time blocks are colour coded, so any time block in the past is grey, the current time block is red and future time blocks are green. You are able to write information in any of the time blocks and when you click save, the information is saved to the computers local storage. This App was cretaed using VanillaJS and is a purely frontend project.",
+        "On this daily schedule  workday website, you are greeted with a calendar which has timeblocks for standard business hours. These are colour coded, so time blocks in the past are grey, the current time block is red and future time blocks are green. Users are able to save information in the time blocks.",
       tags: [
         {
           name: "Javascript",
@@ -240,6 +240,10 @@
           name: "CSS",
           color: "blue-text-gradient",
         },
+        {
+          name: "DOM-Manipulation",
+          color: "pink-text-gradient",
+        },
       ],
       image: calendar,
       source_code_link: "https://github.com/Iman-Jama/Daily-Workday-Calendar",
@@ -248,7 +252,7 @@
     {
       name: "Social Media Backend",
       description:
-        "This project is s purely backend implementation for a social media website using Express.js, Node.js, and Mongoose. It provides a set of routes to handle users, thoughts, and reactions. The backend API can be tested using tools like Insomnia.",
+        "This project is a purely backend implementation for a social media website. It was created using Express.js, Node.js, and Mongoose. It provides a set of routes to handle users, thoughts, and reactions. The backend API can be tested using tools such as Insomnia.",
       tags: [
         {
           name: "Javascript",
