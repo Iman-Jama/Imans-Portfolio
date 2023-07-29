@@ -46,7 +46,7 @@ const Navbar = () => {
             className="text-pink-950 hover:text-black px-3 hover:bg-pink-300 hover:rounded transition-all duration-300 font-medium cursor-pointer"
             onClick={handleDownload}
           >
-            <a href="/src/assets/MyCv_ImanJama.pdf" download="resume.pdf">Download Resume</a>
+            <a href="/src/assets/mycvimanjama.pdf" download="resume.pdf">Download Resume</a>
           </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items center">
