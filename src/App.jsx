@@ -15,10 +15,10 @@ const App = () => {
       <div className="relative z-0 bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <div>
           <Navbar />
-          <Hero className='mb-[-200px]'/>
+          <Hero className=''/>
         </div>
         
-        <About />
+        <About className=""/>
         <Works />
         <Experience />
         <Contact />

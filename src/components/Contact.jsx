@@ -61,10 +61,10 @@ const Contact = () => {
   return (
     <div
       
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 justify-center`}
     >
       <div>
-        <h3 id="contact" className="mx-[30px] text-rose-800 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Contact</h3>
+        <h3 id="contact" className="mx-[30px] text-rose-800 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] ">Contact</h3>
 
         <form
           ref={formRef}
@@ -79,7 +79,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className='bg-gradient-to-r from-pink-500 to-rose-300 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-gradient-to-r from-pink-500 to-rose-300 py-4 px-6 placeholder:text-black text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -90,7 +90,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
-              className='bg-gradient-to-r from-pink-500 to-rose-300 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-gradient-to-r from-pink-500 to-rose-300 py-4 px-6 placeholder:text-black text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -101,7 +101,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What do you want to say?'
-              className='bg-gradient-to-r from-pink-500 to-rose-300 py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-gradient-to-r from-pink-500 to-rose-300 py-4 px-6 placeholder:text-black text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
 

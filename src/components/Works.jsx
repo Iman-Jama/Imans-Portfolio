@@ -16,7 +16,7 @@ const ProjectCard = ({
   app_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} >
       <Tilt
         options={{
           max: 45,
@@ -88,10 +88,10 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         
-        <h2 id="Projects" className="mx-[30px] text-rose-900 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Projects</h2>
+        <h2 id="Projects" className="mx-[30px] text-rose-900 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">Projects</h2>
       </motion.div>
 
-      <div className='w-full flex'>
+      <div className='w-full flex flex-wrap justify-center'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 mx-[30px] text-rose-600 text-[17px] max-w-3xl leading-[30px]'
@@ -100,7 +100,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-7 justify-center'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

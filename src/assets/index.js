@@ -12,7 +12,6 @@ import ecommerce from './ecommerce.png'
 import calendar from './calendar.png'
 import social from './socialM.png'
 import hi from './hi.png'
-import cv from './mycvimanjama.pdf'
 import wizdumb from './wizdumb.png'
 
 
@@ -38,6 +37,5 @@ export {
   calendar,
   social,
   hi,
-  cv,
   wizdumb,
 };

@@ -1,7 +1,7 @@
 import hi from '../assets/hi.png';
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen  mx-auto ">
+    <section className=" w-screen z-0 h-96  mx-auto flex flex-wrap justify-center">
 
 
       <div
@@ -17,14 +17,14 @@ const Hero = () => {
 
           <div className="grid grid-cols-2">
             <div>
-              <h1 className="font-black lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 text-rose-600">
+              <h1 className="font-black lg:text-[100px] sm:text-[70px] xs:text-[60px] text-[40px] lg:leading-[98px] mt-2 text-rose-600">
                 Im <span className='text-pink-950'>Iman</span>
                 <p className="font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-rose-600">
                   I am a full stack <br className='sm:block hidden' />Developer
                 </p>
               </h1>
             </div>
-            <div>
+            <div className='mb-[-200px]'>
               <div className="flex-1 flex items-center justify-center h-full">
                 <img src={hi} alt="" className="md:w-11/12 object-scale-down h-80 w-96" />
               </div>

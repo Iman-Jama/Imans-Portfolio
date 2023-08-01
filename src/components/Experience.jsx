@@ -71,8 +71,8 @@ ExperienceCard.propTypes = {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-      <h2 id="workExperience" className= "mx-[30px] text-rose-900 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-start mt-[30px]">
+      <motion.div variants={textVariant()} className="flex flex-wrap justify-center">
+      <h2 id="workExperience" className= "text-center mx-[30px] text-rose-900 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-start mt-[30px]">
           Work Experience
         </h2>
       </motion.div>
