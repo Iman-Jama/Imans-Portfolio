@@ -90,7 +90,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
-              className='bg-gradient-to-r from-pink-500 to-rose-300 py-4 px-6 placeholder:text-black text-white rounded-lg outline-none border-none font-medium'
+              className='bg-gradient-to-r from-pink-500 to-rose-300 py-4 px-5 placeholder:text-black text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
