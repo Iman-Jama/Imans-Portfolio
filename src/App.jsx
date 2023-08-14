@@ -5,7 +5,7 @@ import Works from './components/Works.jsx';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Experience from './components/Experience.jsx';
-import Contact from './components/Contact.jsx';
+
 
 
 
@@ -21,7 +21,7 @@ const App = () => {
         <About className=""/>
         <Works />
         <Experience />
-        <Contact />
+        
         <div>
           <Footer className="absolute fixed bottom-0 min-w-full" />
         </div>

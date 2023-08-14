@@ -1,4 +1,5 @@
 import hi from '../assets/hi.png';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 const Hero = () => {
   return (
     <section className=" w-screen z-0 h-96  mx-auto flex flex-wrap justify-center">
@@ -18,9 +19,9 @@ const Hero = () => {
           <div className="grid grid-cols-2">
             <div>
               <h1 className="font-black lg:text-[100px] sm:text-[70px] xs:text-[60px] text-[40px] lg:leading-[98px] mt-2 text-rose-600">
-                Im <span className='text-pink-950'>Iman</span>
+                I'm <span className='text-pink-950'>Iman</span>
                 <p className="font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-rose-600">
-                  I am a full stack <br className='sm:block hidden' />Developer
+                  I am a Full Stack Developer
                 </p>
               </h1>
             </div>
@@ -31,10 +32,47 @@ const Hero = () => {
 
             </div>
           </div>
+          <div className="container mt-5 p-1 flex flex-row justify-start">
+         
 
+         <div>
+           <a
+             href="https://github.com/iman-jama"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="text-gray-900 text-sm hover:text-white hover:text-lg ml-6"
+           >
+             <FaGithub className="inline-block mr-1 text-2xl text-pink-950" />
+             GitHub
+           </a>
+         </div>
+
+         <div>
+           <a
+             href="https://www.linkedin.com/in/drimanjama/"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="text-gray-900 text-sm hover:text-white hover:text-base ml-6"
+           >
+             <FaLinkedin className="inline-block mr-1 text-2xl text-pink-950" />
+             LinkedIn
+           </a>
+         </div>
+
+         <div>
+           <a
+             href="mailto:iman.jama891@gmail.com?subject=Hello%20from%20Portfolio%20Website&body=I%20found%20your%20website%20and%20wanted%20to%20connect."
+             className="text-gray-900 text-sm hover:text-white hover:text-base ml-6"
+           >
+             <FaEnvelope className="inline-block mr-1 text-2xl text-pink-950" />
+             Email
+           </a>
+         </div>
+       </div>
+     </div>
         </div>
 
-      </div>
+      
 
     </section>
   );

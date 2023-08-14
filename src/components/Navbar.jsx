@@ -43,10 +43,10 @@ const Navbar = () => {
             </li>
           ))}
           <li
-            className="text-pink-950 hover:text-black px-3 hover:bg-pink-300 hover:rounded transition-all duration-300 font-medium cursor-pointer"
+            className="text-white hover:text-black px-3 hover:bg-pink-300 hover:rounded transition-all duration-300 font-medium cursor-pointer"
             onClick={handleDownload}
           >
-            <a href="/mycvimanjama.pdf" download="resume.pdf">Download Resume</a>
+            <a href="https://github.com/Iman-Jama/Imans-Portofolio/blob/main/public/mycvimanjama.pdf" download="resume.pdf">Resume</a>
           </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items center">

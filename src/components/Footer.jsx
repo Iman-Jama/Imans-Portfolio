@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
     const handleClick = () => {
     window.location.href = 'https://github.com/iman-jama';
@@ -16,9 +16,9 @@ const Footer = () => {
               href="https://github.com/iman-jama"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-900 text-sm hover:text-white hover:text-base ml-6"
+              className="text-gray-900 text-sm hover:text-white hover:text-lg ml-6"
             >
-              <FaGithub className="inline-block mr-1 text-lg" />
+              <FaGithub className="inline-block mr-1 text-2xl" />
               GitHub
             </a>
           </div>
@@ -30,8 +30,18 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-gray-900 text-sm hover:text-white hover:text-base ml-6"
             >
-              <FaLinkedin className="inline-block mr-1 text-lg" />
+              <FaLinkedin className="inline-block mr-1 text-2xl" />
               LinkedIn
+            </a>
+          </div>
+
+          <div className="flex items-center mt-2 md:mt-0">
+            <a
+              href="mailto:iman.jama891@gmail.com?subject=Hello%20from%20Portfolio%20Website&body=I%20found%20your%20website%20and%20wanted%20to%20connect."
+              className="text-gray-900 text-sm hover:text-white hover:text-base ml-6"
+            >
+              <FaEnvelope className="inline-block mr-1 text-2xl" />
+              Email
             </a>
           </div>
         </div>
@@ -39,9 +49,9 @@ const Footer = () => {
 
       <div className="container mx-auto border-t border-gray-800 py-4">
         <div className="flex flex-wrap justify-center text-sm">
-        <p className=' hover:text-sm'><a href="#">Back to top</a></p>
+        <a className=' text-lg' href="https://iman-jama.github.io/Imans-Portofolio/">Back to top</a>
         </div>
-        <p className="text-xs text-center mt-4">
+        <p className="text-lg text-center mt-4">
           &copy; {year} Iman Jama. All rights reserved.
         </p>
       </div>
