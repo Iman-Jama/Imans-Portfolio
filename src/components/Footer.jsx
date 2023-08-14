@@ -1,9 +1,6 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
-    const handleClick = () => {
-    window.location.href = 'https://github.com/iman-jama';
-  };
-
+  
   const year = new Date().getFullYear(); 
     return (
         <footer className="text-gray-900 mb-0 bg-pink-300 bg-opacity-75 border-t-0 mt-10 left-0 w-full z-0">
@@ -49,7 +46,7 @@ const Footer = () => {
 
       <div className="container mx-auto border-t border-gray-800 py-4">
         <div className="flex flex-wrap justify-center text-sm">
-        <a className=' text-lg' href="https://iman-jama.github.io/Imans-Portofolio/">Back to top</a>
+        <a className=' text-lg hover:text-base' href="https://iman-jama.github.io/Imans-Portofolio/">Back to top</a>
         </div>
         <p className="text-lg text-center mt-4">
           &copy; {year} Iman Jama. All rights reserved.

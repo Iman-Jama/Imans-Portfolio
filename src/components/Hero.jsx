@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="grid grid-cols-2">
             <div>
               <h1 className="font-black lg:text-[100px] sm:text-[70px] xs:text-[60px] text-[40px] lg:leading-[98px] mt-2 text-rose-600">
-                I'm <span className='text-pink-950'>Iman</span>
+              I&apos;m<span className='text-pink-950'>Iman</span>
                 <p className="font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-rose-600">
                   I am a Full Stack Developer
                 </p>
