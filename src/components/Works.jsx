@@ -89,7 +89,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         
-        <h2 id="Projects" className="mx-[30px] text-rose-900 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">Projects</h2>
+        <h2 id="Projects" className="mx-[30px] my-10 text-rose-900 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">Projects</h2>
       </motion.div>
 
       <div className='w-full flex flex-wrap justify-center'>
