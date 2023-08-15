@@ -23,7 +23,7 @@ const App = () => {
         <Experience />
         
         <div>
-          <Footer className="absolute fixed bottom-0 min-w-full" />
+          <Footer />
         </div>
       </div>
     </BrowserRouter>

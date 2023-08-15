@@ -25,32 +25,32 @@
 
 .blue-text-gradient {
   /* background: -webkit-linear-gradient(#eee, #333); */
-  background: #56ccf2; /* fallback for old browsers */
+  background: #022e63; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #2f80ed,
-    #56ccf2
+    #061b37,
+    #04475e
   ); 
   background: linear-gradient(
     to top,
-    #2f80ed,
-    #56ccf2
+    #022553,
+    #013d51
   ); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .pink-text-gradient {
-  background: #700303; /* fallback for old browsers */
+  background: #0c0c0c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #700303,
-    #fc6767c0
+    #171616,
+    #0f0f0fc0
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #320103,
-    #fc6767e6
+    #111111,
+    #0d0d0de6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

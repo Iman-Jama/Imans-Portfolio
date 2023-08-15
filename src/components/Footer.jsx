@@ -7,7 +7,7 @@ const Footer = () => {
   
 
       <div >
-        <div className="flex flex-wrap justify-center text-lg">
+        <div className="flex flex-wrap justify-center text-lg cursor-pointer">
         <a  href="#">Back to top</a>
         </div>
         <p className="text-lg text-center mt-4">

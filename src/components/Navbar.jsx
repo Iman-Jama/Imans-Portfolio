@@ -9,12 +9,7 @@ import logo from '../assets/logo.png';
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/src/assets/MyCv_ImanJama.pdf'; 
-    link.download = '/src/assets/MyCv_ImanJama.pdf'; 
-    link.click();
-  };
+
 
   return (
     <nav className="sm:px-16 px-6 w-full flex items-center py-5 fixed top-0 z-20 bg-gradient-to-r from-rose-400 to-pink-400">
@@ -36,15 +31,14 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li
               key={link.id}
-              className={`${active === link.title ? 'text-white' : 'text-pink-950'} hover:text-black px-3 hover:bg-pink-300 hover: rounded transition-all duration-300 font-medium cursor-pointer`}
+              className={`${active === link.title ? 'text-white' : 'text-pink-950'} px-3 hover:bg-pink-300 hover: rounded transition-all duration-300 text-lg text-white hover:text-black cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
           <li
-            className="text-white hover:text-black px-3 hover:bg-pink-300 hover:rounded transition-all duration-300 font-medium cursor-pointer"
-            onClick={handleDownload}
+            className="text-white hover:text-black px-3 hover:bg-pink-300 hover:rounded transition-all duration-300 font-medium cursor-pointer text-lg"
           >
             <a href="https://github.com/Iman-Jama/Imans-Portofolio/blob/main/public/mycv.pdf?raw=true" download="resume.pdf">Resume</a>
           </li>
@@ -72,7 +66,7 @@ const Navbar = () => {
                 ))}
                <li
                  className="text-pink-950 hover:text-black px-3 hover:bg-pink-300 hover:rounded transition-all duration-300 font-medium cursor-pointer"
-                 onClick={handleDownload}
+                 
                >
                  <a href="/src/assets/MyCv_ImanJama.pdf" download="resume.pdf">Download Resume</a>
                </li>

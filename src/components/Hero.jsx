@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="grid grid-cols-2">
             <div>
               <h1 className="font-black lg:text-[100px] sm:text-[70px] xs:text-[60px] text-[40px] lg:leading-[98px] mt-2 text-rose-600">
-              I&apos;m<span className='text-pink-950'>Iman</span>
+              I&apos;m<span className='text-pink-950'>&nbsp;&nbsp; Iman</span>
                 <p className="font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-rose-600">
                   I am a Full Stack Developer
                 </p>
@@ -40,7 +40,7 @@ const Hero = () => {
              href="https://github.com/iman-jama"
              target="_blank"
              rel="noopener noreferrer"
-             className="text-gray-900 text-sm hover:text-white hover:text-lg ml-6"
+             className=" text-xl hover:text-black hover:text-2xl ml-6"
            >
              <FaGithub className="inline-block mr-1 text-2xl text-pink-950" />
              GitHub
@@ -52,7 +52,7 @@ const Hero = () => {
              href="https://www.linkedin.com/in/drimanjama/"
              target="_blank"
              rel="noopener noreferrer"
-             className="text-gray-900 text-sm hover:text-white hover:text-base ml-6"
+             className="text-xl hover:text-black hover:text-2xl ml-6"
            >
              <FaLinkedin className="inline-block mr-1 text-2xl text-pink-950" />
              LinkedIn
@@ -62,7 +62,7 @@ const Hero = () => {
          <div>
            <a
              href="mailto:iman.jama891@gmail.com?subject=Hello%20from%20Portfolio%20Website&body=I%20found%20your%20website%20and%20wanted%20to%20connect."
-             className="text-gray-900 text-sm hover:text-white hover:text-base ml-6"
+             className="text-xl hover:text-black hover:text-2xl ml-6"
            >
              <FaEnvelope className="inline-block mr-1 text-2xl text-pink-950" />
              Email
