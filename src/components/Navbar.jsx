@@ -40,7 +40,7 @@ const Navbar = () => {
           <li
             className="text-white hover:text-black px-3 hover:bg-pink-300 hover:rounded transition-all duration-300 font-medium cursor-pointer text-lg"
           >
-            <a href="https://github.com/Iman-Jama/Imans-Portofolio/blob/main/public/mycv.pdf?raw=true" download="resume.pdf">Resume</a>
+            <a href="https://github.com/Iman-Jama/Imans-Portofolio/blob/main/public/imancv.pdf?raw=true" download="resume.pdf">Resume</a>
           </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items center">
@@ -68,7 +68,7 @@ const Navbar = () => {
                  className="text-pink-950 hover:text-black px-3 hover:bg-pink-300 hover:rounded transition-all duration-300 font-medium cursor-pointer"
                  
                >
-                 <a href="/src/assets/MyCv_ImanJama.pdf" download="resume.pdf">Download Resume</a>
+                 <a href="/src/assets/imancv.pdf" download="resume.pdf">Download Resume</a>
                </li>
             </ul>
           </div>
