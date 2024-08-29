@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://iman-jama.github.io/Imans-Portofolio",
+  "homepage": "https://iman-jama.github.io/Imans-Portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
