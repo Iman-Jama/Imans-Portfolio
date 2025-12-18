@@ -40,7 +40,7 @@ Here is a screenshots of the website:
 ---
 
 Here is a link to my website:
-https://iman-jama.github.io/Imans-Portofolio/
+https://iman-jama.github.io/Imans-Portfolio/
 
 
 ## <u>Contact Me</u>
